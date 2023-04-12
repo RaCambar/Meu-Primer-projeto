@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Codificador</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		
+	</head>
+
+	<body>
+
+		<header>
+			<img src="imagenes/logo de alura.png" alt="Logo de Alura">
+		</header>
+		<main>
+			<section>
+				<textarea class="input-texto" placeholder="Digite seu texto"></textarea>
+				<div class="informacao">
+					<h6 class="informacao"> Apenas letras minúsculas e sem acento.</h6>
+				</div>
+				<div class="botoes">
+					<button class="encriptar" onclick="btnEncriptar()">
+						Criptografar 
+					</button>
+					<button class="desencriptar" onclick="btnDesencriptar()">
+					 Desencriptografar 
+					</button>
+			 	</div>
+
+			</section>
+
+			 <section class="mensagem-box">
+			 	<textarea class="mensagem" id="textarea"></textarea>
+
+			 </section>
+
+  			<div class="copiar">
+			
+			<button id="copiar" class="copiar"> copiar </button>
+			</div>
+
+  
+		</main>
+		<script src="script2.js"></script>
+
+	</body>
+</html>
